@@ -8,11 +8,12 @@ Page({
     statusBarHeight: app.globalData.statusBarHeight,
     entryInfos: [
       { icon: "../../assets/images/icon-groupcall.png", title: "多人视频通话", navigateTo: "../group-call/join/join" },
+      { icon: "../../assets/images/icon-groupcall.png", title: "点对点音视频通话", navigateTo: "../call/login/index" },
     ],
   },
-  onLoad: function() {
+  onLoad: function () {
   },
-  handleEntry: prevent(function(e) {
+  handleEntry: prevent(function (e) {
     let url = this.data.entryInfos[e.currentTarget.id].navigateTo
     wx.navigateTo({ url })
   }, 2000),

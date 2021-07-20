@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/group-call/join/join",
-    "pages/group-call/room/room"
+    "pages/group-call/room/room",
+    "pages/call/login/index",
+    "pages/call/beforeCall/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
